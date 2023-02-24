@@ -1,0 +1,13 @@
+:root {
+  --green-bg: #66c05d;
+  --card-text: #333333;
+  --gray-bg: #efefef;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.non-displayd {
+  display: none;
+}
