@@ -1,0 +1,100 @@
+.header-main-navigation {
+  width: 100%;
+
+  background-color: var(--gray-bg);
+}
+
+.nav_main {
+  max-width: 447px;
+  margin: auto;
+  padding: 17px 0;
+  column-gap: 30px;
+}
+
+.header-top {
+  max-width: 1110px;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: var(--gray-bg) solid 1px;
+}
+
+.logo-wrapper {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.logo-text {
+  color: var(--green-bg);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+}
+
+.call-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.call-link {
+  font-size: 16px;
+}
+
+.call-me-btn {
+  border: var(--green-bg) solid 2px;
+}
+
+.call-me-btn:hover {
+  color: #ffffff;
+  background-color: var(--green-bg);
+}
+
+.nav_goods {
+  max-width: 675px;
+  margin: auto;
+  padding: 30px 0;
+  column-gap: 40px;
+}
+
+.promo {
+  background-image: url('../assets/img/bg/promo.png');
+  padding: 192px 0;
+}
+
+.promo-wrapper {
+  max-width: 308px;
+  margin-left: 495px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+
+  color: #ffffff;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 44px;
+}
+
+.promo-subtitle {
+  margin: 0;
+  height: 35px;
+}
+
+.btn_more {
+  width: 170px;
+
+  text-align: center;
+  border: #ffffff solid 2px;
+}
+
+.btn_more:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
