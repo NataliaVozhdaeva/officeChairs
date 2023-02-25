@@ -1,4 +1,4 @@
-###Landing Beauty (beauty chairs)
+### Landing Beauty (beauty chairs)
 
 Semantic HTML;
 
