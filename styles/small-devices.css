@@ -1,0 +1,158 @@
+@media only screen and (max-width: 1440px) {
+  .header-top-wrapper,
+  .offers,
+  .additional-wrapper,
+  .contacts,
+  .aside {
+    margin: auto 5%;
+  }
+
+  .promo-wrapper {
+    margin-left: 11%;
+  }
+
+  .promo {
+    padding: 100px 0;
+  }
+
+  .contacts {
+    row-gap: 30px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .header-top-wrapper,
+  .offers,
+  .additional-wrapper,
+  .contacts,
+  .aside {
+    margin: auto 11%;
+  }
+
+  .card {
+    max-width: none;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .call-wrapper {
+    column-gap: 20px;
+  }
+
+  .promo {
+    background-position-x: center;
+  }
+
+  .card {
+    max-width: 255px;
+  }
+
+  .bonuses {
+    background-image: none;
+  }
+
+  .contacts-socialmedia {
+    flex-grow: 0;
+  }
+
+  .aside-info {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-top-wrapper {
+    margin: auto 5%;
+  }
+
+  .nav_goods {
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+
+  .nav_goods > .nav-item {
+    display: block;
+    width: 25%;
+
+    text-align: center;
+  }
+
+  .offers-title::before {
+    right: 0;
+  }
+
+  .additional-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .bonuses,
+  .places {
+    width: 330px;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .header-top-wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 30px;
+  }
+
+  .logo-wrapper,
+  .header-call-wrapper {
+    margin: auto;
+  }
+
+  .offers-title {
+    text-align: center;
+  }
+
+  .offers-title::before {
+    display: none;
+  }
+
+  .promo {
+    background: var(--green-bg);
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header-main-navigation {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .nav_main {
+    position: absolute;
+    right: -300px;
+
+    width: 200px;
+    padding-left: 20px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .nav-mobile {
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+
+    background: linear-gradient(
+      var(--green-bg) 20%,
+      transparent 20%,
+      transparent 40%,
+      var(--green-bg) 40%,
+      var(--green-bg) 60%,
+      transparent 60%,
+      transparent 80%,
+      var(--green-bg) 80%
+    );
+    cursor: pointer;
+  }
+
+  .nav_goods > .nav-item {
+    width: 35%;
+  }
+}

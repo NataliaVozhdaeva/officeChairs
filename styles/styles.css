@@ -51,6 +51,7 @@ html {
 
 .nav {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .title {
