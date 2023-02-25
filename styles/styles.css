@@ -2,12 +2,12 @@
   --green-bg: #66c05d;
   --card-text: #333333;
   --gray-bg: #efefef;
+  --light-gray: #c4c4c4;
 }
 
 .body {
   box-sizing: border-box;
 
-  max-width: 1920px;
   margin: 0;
 
   font-family: 'Roboto', sans-serif;
@@ -22,10 +22,6 @@
   text-decoration: none;
   color: #000000;
   transition: 0.3s;
-}
-
-.link:visited {
-  color: currentColor;
 }
 
 .link:hover {
@@ -54,4 +50,6 @@
 
 .title {
   margin: 0;
+
+  font-weight: 700;
 }

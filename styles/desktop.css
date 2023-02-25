@@ -1,4 +1,4 @@
-.header-main-navigation {
+ю .header-main-navigation {
   width: 100%;
 
   background-color: var(--gray-bg);
@@ -12,14 +12,16 @@
 }
 
 .header-top {
+  border-bottom: var(--gray-bg) solid 1px;
+}
+
+.header-top-wrapper {
   max-width: 1110px;
   margin: auto;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  border-bottom: var(--gray-bg) solid 1px;
 }
 
 .logo-wrapper {
@@ -62,8 +64,10 @@
 }
 
 .promo {
-  background-image: url('../assets/img/bg/promo.png');
   padding: 192px 0;
+
+  background: url('../assets/img/bg/promo.png') no-repeat;
+  background-size: cover;
 }
 
 .promo-wrapper {
@@ -77,24 +81,168 @@
 }
 
 .main-title {
-  font-weight: 700;
   font-size: 44px;
   line-height: 44px;
 }
 
 .promo-subtitle {
   margin: 0;
-  height: 35px;
 }
 
 .btn_more {
   width: 170px;
 
   text-align: center;
+
+  color: #ffffff;
   border: #ffffff solid 2px;
 }
 
 .btn_more:hover {
   color: #000000;
   background-color: #ffffff;
+}
+
+.about-wrapper {
+  padding: 80px 0 132px;
+  background-color: var(--gray-bg);
+}
+
+.offers,
+.additional-wrapper {
+  width: 58%;
+  margin: auto;
+}
+
+.offers-title {
+  position: relative;
+
+  margin-bottom: 38px;
+
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.offers-title::after {
+  position: absolute;
+  bottom: -30px;
+  right: 45px;
+
+  content: url('../assets/img/icons/salmon.svg');
+}
+
+.offers-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.card {
+  box-sizing: border-box;
+  max-width: 255px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  padding: 25px 30px;
+  background-color: #ffffff;
+}
+
+.card-title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+
+  color: var(--card-text);
+}
+
+.card-price {
+  font-weight: 500;
+  font-size: 21px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.card-btn {
+  padding: 9px 38px;
+
+  color: #ffffff;
+  background-color: var(--green-bg);
+}
+
+.card-btn:hover {
+  color: #000000;
+  box-shadow: none;
+}
+
+.additional-wrapper {
+  display: flex;
+  column-gap: 30px;
+}
+
+.bonuses,
+.places {
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  height: 215px;
+  padding: 35px 40px;
+
+  color: #ffffff;
+  background-color: var(--green-bg);
+}
+
+.bonuses-wrapper,
+.places-wrapper {
+  max-width: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.subscribe {
+  padding: 9px 25px;
+  border-radius: 30px;
+
+  border: #ffffff solid 1px;
+}
+
+.subscribe:focus {
+  outline: none;
+  border: var(--card-text) solid 1px;
+}
+
+.subscribe::placeholder {
+  color: var(--light-gray);
+}
+
+.submit-btn {
+  width: 140px;
+  height: 140px;
+  padding: 0;
+
+  background-image: url('../assets/img/icons/envelope.svg');
+  border-radius: 0;
+}
+
+.btn-map {
+  box-sizing: border-box;
+  width: 170px;
+  padding: 9px 27px;
+
+  color: #ffffff;
+  background-color: var(--green-bg);
+  border: #ffffff 2px solid;
+}
+
+.btn-map:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
