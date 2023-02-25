@@ -3,6 +3,11 @@
   --card-text: #333333;
   --gray-bg: #efefef;
   --light-gray: #c4c4c4;
+  --middle-gray: #828282;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .body {

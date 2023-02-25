@@ -72,7 +72,7 @@
 
 .promo-wrapper {
   max-width: 308px;
-  margin-left: 495px;
+  margin-left: 405px;
   display: flex;
   flex-direction: column;
   row-gap: 50px;
@@ -245,4 +245,71 @@
 .btn-map:hover {
   background-color: #ffffff;
   color: #000000;
+}
+
+.contacts {
+  max-width: 1110px;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  column-gap: 105px;
+}
+
+.contacts-socialmedia {
+  display: flex;
+  column-gap: 20px;
+  flex-grow: 1;
+}
+
+.socialmedia-link {
+  display: block;
+  width: 45px;
+  height: 45px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  border: var(--green-bg) solid 2px;
+  border-radius: 50%;
+}
+
+.socialmedia-link:hover {
+  box-shadow: 0 0 8px var(--green-bg);
+}
+
+.youtube {
+  background-image: url('../assets/img/icons/youtube.svg');
+}
+
+.vk {
+  background-image: url('../assets/img/icons/vk.svg');
+}
+
+.fb {
+  background-image: url('../assets/img/icons/facebook.svg');
+}
+
+.instagram {
+  background-image: url('../assets/img/icons/instagram.svg');
+}
+
+.aside-wrapper {
+  background-color: var(--gray-bg);
+}
+
+.aside {
+  max-width: 1110px;
+  padding: 25px 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 12px;
+  line-height: 14px;
+
+  color: var(--middle-gray);
+}
+
+.aside-privacy-policy {
+  color: var(--middle-gray);
 }
